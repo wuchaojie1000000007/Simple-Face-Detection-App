@@ -4,4 +4,5 @@
     <string name="predict">Predict</string>
     <string name="label">Label</string>
     <string name="tap_the_label_button_to_get_the_image_label">Tap the label button to get the image label</string>
+    <string name="localize">Localize</string>
 </resources>

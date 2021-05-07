@@ -26,15 +26,6 @@
         app:layout_constraintRight_toRightOf="parent" />
 
     <Button
-        android:id="@+id/predict_button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/predict"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toRightOf="@+id/label_button"
-        app:layout_constraintRight_toRightOf="parent" />
-
-    <Button
         android:id="@+id/label_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -42,4 +33,22 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toLeftOf="@+id/predict_button" />
+
+    <Button
+        android:id="@+id/predict_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/predict"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toRightOf="@+id/label_button"
+        app:layout_constraintRight_toLeftOf="@id/localize_button" />
+
+    <Button
+        android:id="@+id/localize_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/localize"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toRightOf="@+id/predict_button"
+        app:layout_constraintRight_toRightOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
