@@ -2,4 +2,6 @@
     <string name="app_name">ML</string>
     <string name="the_image_for_prediction">The image for prediction</string>
     <string name="predict">Predict</string>
+    <string name="label">Label</string>
+    <string name="tap_the_label_button_to_get_the_image_label">Tap the label button to get the image label</string>
 </resources>
