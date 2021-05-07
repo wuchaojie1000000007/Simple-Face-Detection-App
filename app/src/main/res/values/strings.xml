@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ML</string>
+    <string name="the_image_for_prediction">The image for prediction</string>
+    <string name="predict">Predict</string>
+</resources>
